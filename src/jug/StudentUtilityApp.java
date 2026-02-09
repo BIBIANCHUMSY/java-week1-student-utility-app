@@ -11,7 +11,7 @@ public class StudentUtilityApp {
             System.out.println("2. Check if a number is EVEN or ODD");
             System.out.println("3. Print numbers from 1 to N");
             System.out.println("4. Display day of the week");
-            System.out.println("5. Exit");
+            System.out.println("5. 2Exit");
             System.out.println("Enter your choice");
         }
 
