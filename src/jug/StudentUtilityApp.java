@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class StudentUtilityApp {
 
-
+        //the Method that displays the menu
         static void displayAppMenu() {
             System.out.println("=== STUDENT UTILITY APP ===");
             System.out.println("1. Add two numbers");
@@ -15,6 +15,7 @@ public class StudentUtilityApp {
             System.out.println("Enter your choice");
         }
 
+        //this method add two numbers
         static void addTwoNumbers(Scanner input) {
             System.out.print("Enter first number: ");
             int num1 = input.nextInt();
@@ -27,23 +28,28 @@ public class StudentUtilityApp {
 
         }
 
+        //Method to check EVEN or ODD using tenary operator
         static void checkEvenOrOdd(Scanner input) {
             System.out.print("Enter a number: ");
             int number = input.nextInt();
 
             String result = (number % 2 == 0) ? "EVEN" : "ODD";
             System.out.println("The number is " + result);
+
         }
 
+        //method to print numbers from 1 to N
         static void printNumbers(Scanner input) {
             System.out.print("Enter a number N: ");
             int n = input.nextInt();
 
             for (int i = 1; i <= n; i++){
                 System.out.println(i);
+
             }
         }
 
+        //method that display day of the week using switch
         static void displayDay(Scanner input) {
             System.out.print("Enter a number (1 - 7): ");
             int day = input.nextInt();
@@ -75,6 +81,7 @@ public class StudentUtilityApp {
             }
         }
 
+   //Main method
     public static void main(String[] args) {
          Scanner input = new Scanner(System.in);
          int choice;
